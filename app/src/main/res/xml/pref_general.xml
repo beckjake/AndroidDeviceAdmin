@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="device_admin_enabled"
+        android:title="Enable Device Admin"
+        android:summary="Device admin mut be enabled to function"
+        />
+    <EditTextPreference
+        android:defaultValue="0"
+        android:inputType="number"
+        android:key="erase_after_attempts"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_erase_after_attempts"
+        android:summary="@string/pref_summary_erase_after_attempts"
+        />
+</PreferenceScreen>

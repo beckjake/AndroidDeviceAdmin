@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Device Admin</string>
+
+    <string name="pref_title_erase_after_attempts">Erase After Failed Attempts</string>
+    <string name="pref_summary_erase_after_attempts">After this many failed login attempts reset
+        the device to factory settings
+    </string>
+    <string name="pref_header_general">General</string>
+
+    <string name="device_admin_name">Device Admin</string>
+    <string name="device_admin_description">A UI to do some device administration tasks that are
+        not exposed otherwise.
+    </string>
+
+    <string name="device_admin_add_description">This app must be added to the device administrators
+        list in order to function. It will receive permissions to wipe your phone, consider
+        carefully if that is acceptable to you!
+    </string>
+
+</resources>
