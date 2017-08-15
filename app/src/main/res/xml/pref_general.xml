@@ -3,7 +3,7 @@
         android:defaultValue="false"
         android:key="device_admin_enabled"
         android:title="Enable Device Admin"
-        android:summary="Device admin mut be enabled to function"
+        android:summary="@string/device_admin_add_description"
         />
     <EditTextPreference
         android:defaultValue="0"

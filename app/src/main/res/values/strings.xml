@@ -13,8 +13,10 @@
     </string>
 
     <string name="device_admin_add_description">This app must be added to the device administrators
-        list in order to function. It will receive permissions to wipe your phone, consider
-        carefully if that is acceptable to you!
+        list in order to function. It needs permission to monitor screen-unlock attempts in order to
+        keep track of failed unlock attempts and reset the counter on success, and it needs the
+        ability to erase all data so it can erase your phone after too many attempts. Consider
+        carefully if that is acceptable to you before accepting!
     </string>
 
 </resources>

@@ -28,10 +28,14 @@ There are also some nice little goodies (password policies, etc) that I found bu
 
 ## Privileges
 It shouldn't be surprising to learn that this needs some scary privileges.
-Be very careful, this application can end up with you wiping your phone!
+This app uses the Device Administrator permission.
+It needs to be able to "erase all data" because the whole point is to erase all data on too many failed logins.
+It needs to be able to "monitor screen-unlock attempts" because we need to keep track of successful and failed logins because, again, that's the whole point.
 
 ## Behavior notes
 At least some settings reset when/if you lose device admin status. That's not the app, it's Android. The UI tries to reflect this behavior.
+
+The UI for enabling device admin has a long, tedious warning to meet some requirements for the App store. Sorry it sucks. If you have suggestions for fixing it while remaining in compliance, patches are always welcome.
 
 ## Implemented so far
 * Enabling/disabling admin privileges through the app itself
